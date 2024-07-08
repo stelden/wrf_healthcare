@@ -12,6 +12,7 @@
  "field_order": [
   "basic_info",
   "naming_series",
+  "uid",
   "first_name",
   "middle_name",
   "last_name",
@@ -23,7 +24,6 @@
   "image",
   "column_break_14",
   "status",
-  "uid",
   "inpatient_record",
   "inpatient_status",
   "report_preference",
@@ -489,10 +489,11 @@
  "image_field": "image",
  "links": [],
  "max_attachments": 50,
- "modified": "2023-01-13 17:48:59.069268",
+ "modified": "2024-07-06 09:15:56.614256",
  "modified_by": "Administrator",
  "module": "Healthcare",
  "name": "Patient",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
@@ -546,7 +547,7 @@
  ],
  "quick_entry": 1,
  "restrict_to_domain": "Healthcare",
- "search_fields": "patient_name,mobile,email,phone,uid",
+ "search_fields": "uid,patient_name,mobile,email,phone",
  "show_name_in_global_search": 1,
  "sort_field": "modified",
  "sort_order": "ASC",
